@@ -1,0 +1,58 @@
+story_outline:
+  description: >
+    Create a full three-act story outline for the movie concept:
+    "{movie_concept}". Include main plot points, turning events,
+    and emotional beats.
+  expected_output: >
+    Three-act structure with clear story progression.
+  agent: story_architect
+
+characters:
+  description: >
+    Create detailed character bios from the story including:
+    goals, fears, motivations, flaws, and emotional arcs.
+  expected_output: >
+    Detailed character profiles and arcs.
+  agent: character_designer
+
+screenplay:
+  description: >
+    Write the screenplay with professional formatting.
+    Include:
+      - Scene headings
+      - Dialogue
+      - Action
+      - Character interactions
+  expected_output: >
+    Full screenplay draft.
+  agent: dialogue_writer
+
+edit:
+  description: >
+    Edit and improve screenplay for:
+      - pacing
+      - emotional intensity
+      - clarity
+      - cinematic impact
+  expected_output: >
+    Polished screenplay version.
+  agent: script_editor
+
+continuity:
+  description: >
+    Review screenplay for:
+      - plot holes
+      - logic errors
+      - timeline issues
+      - character behavior inconsistencies
+  expected_output: >
+    Continuity notes and improvement recommendations.
+  agent: continuity_supervisor
+
+director_review:
+  description: >
+    Evaluate the screenplay for tone, theme coherence,
+    and storytelling impact. Provide final creative notes.
+  expected_output: >
+    Director-level feedback and revision suggestions.
+  agent: director
